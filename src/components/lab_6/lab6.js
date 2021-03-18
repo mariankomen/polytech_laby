@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Lab2 = () => {
+const Lab6 = () => {
     return(
         <div>
-            Lab2
+            Lab6
         </div>
     )
 }
 
-export default Lab2
+export default Lab6
