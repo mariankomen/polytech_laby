@@ -1,0 +1,16 @@
+.lab_3_block {
+  width: 30%;
+  height: 80px;
+  background-color: #eeeeee;
+
+  margin: 15% 35% 25% 35% ;
+
+  &__text{
+    width: 350px;
+    height: 75px;
+    font-size: 1.5rem;
+    display: flex;
+    margin: 0 auto;
+
+  }
+}
