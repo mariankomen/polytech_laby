@@ -5,7 +5,7 @@ const Lab2 = () => {
     var canvas = document.getElementById("myCanvas"),
         context = canvas.getContext("2d"),
         w = canvas.width,
-        h=canvas.height;
+        h = canvas.height;
 
     let mouse = {  x: 0, y:0 };
     let draw = false;

@@ -8,15 +8,17 @@ const Lab4 = () => {
 
     return(
         <div className={'lab_3_block'}>
-            <input type='text'
+            <input type='number'
                    className={'lab_3_block__text'}
                    value={text}
-                   placeholder={'Введіть будь-який символ: '}
+                   placeholder={'Введіть будь-яке число: '}
                    onChange={(e) => {
                        setText(e.target.value)
                    }}
             />
-            <button>Click</button>
+            <button
+                onClick={() => alert(`Your number is: ${text}`)}
+            >Click</button>
         </div>
     )
 }

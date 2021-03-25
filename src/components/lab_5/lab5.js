@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Lab5 = () => {
-    return(
+    return (
         <div>
-            Lab5
+            
         </div>
-    )
-}
+    );
+};
 
-export default Lab5
+export default Lab5;
