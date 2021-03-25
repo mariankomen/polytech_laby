@@ -1,0 +1,11 @@
+.main_block{
+    max-width: 410px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #656565;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 500px;
+    padding: 50px;
+}
